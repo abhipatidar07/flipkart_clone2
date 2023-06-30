@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex_all_center{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: var(--main-bg-color);
+    border: 2px solid rgb(245, 239, 239);
+    cursor: pointer;
+    border-radius: 7px;
+}
+.my-1{
+    margin: 5px 0px;
+}
+.my-2{
+    margin: 26px 0px;
+}
+.text-center{
+    text-align: center;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 100px;
+    padding: 0px 25px;
+}
+header{
+    background: var(--main-bg-color);
+    /* background-color: black; */
+    color: white;
+    /* border: 2px solid red; */
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    
+}
+
+.search{
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 361px;
+    height: 23px;
+    border-radius: 5px;
+    margin: 0px 12px;
+    font-family: 'Playfair Display', serif;
+}
+.search button{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+    width: 80vw;
+    margin: 15px auto;
+}
+.slider img{
+    width: 1000px;
+    height: 400px;
+}
+
+.card h2{
+    font-family: 'Noto Serif', serif;
+}
+/* .lines{
+    width: 11vw;
+} */
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Noto Serif', serif;
+}
+.cards{
+    display: flex; 
+    /* align-items: center;
+    justify-content: center; */
+    /* overflow: hidden; */
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 25px;
+}
+footer{
+   height: 12vh;
+   /* background-color: black; */
+   background: var(--main-bg-color);
+   color: white;
+   font-family: 'Playfair Display', serif;
+   /* text-align: center; */
+}
